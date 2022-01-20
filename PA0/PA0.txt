@@ -1,6 +1,15 @@
-1. Installed Ubuntu 20.04 on my windows laptop using WSL 
+1. Installed Ubuntu 20.04 on my windows laptop using WSL  (also have additional laptop with only Ubuntu and ROS)
 https://docs.microsoft.com/en-us/windows/wsl/install
+
 
 2. I have created account on gitlab 
 
 3. Install ROS neotic on system
+
+# basic git commands 
+
+git init 
+git status 
+git add . 
+git commit - m "msg"
+git status 
