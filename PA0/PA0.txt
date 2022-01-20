@@ -1,0 +1,6 @@
+1. Installed Ubuntu 20.04 on my windows laptop using WSL 
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+2. I have created account on gitlab 
+
+3. Install ROS neotic on system
