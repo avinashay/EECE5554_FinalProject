@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="turtlesim" type = "turtlesim_node" name ="my_turtle_node" required = "true" />
+    <node pkg="beginner_tutorials" type = "talker.py" name ="publisher_node" output = "screen" required = "true"/>
+    <node pkg ="beginner_tutorials" type ="listener.py" name = "subcriber_node" output = "screen" required = "true"/>
+
+</launch>
