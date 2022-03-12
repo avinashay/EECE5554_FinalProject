@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="imu_gps_driver" name="imu" type="gps_pub.py" required="true"/>
+  <node pkg="imu_gps_driver" name="gps" type="imu_driver_script.py" required="true"/>
+</launch>
