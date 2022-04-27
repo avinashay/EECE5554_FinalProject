@@ -1,7 +1,7 @@
 # ORB SLAM2 
 ## 1. Installing Softwares 
 
-    https://github.com/raulmur/ORB_SLAM2.git
+    <https://github.com/raulmur/ORB_SLAM2.git>
 
     Follow the instructions provided in ORB SLAM2 github and install the listed softwares and their dependencies
 
