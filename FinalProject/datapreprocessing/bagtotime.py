@@ -3,16 +3,13 @@
 import os
 import argparse
 
-import cv2
 import time
 import rosbag
-from sensor_msgs.msg import Image
-from cv_bridge import CvBridge
+
 
 def main():
 
     bag = rosbag.Bag('/home/avinash/Downloads/big.bag', "r")
-    bridge = CvBridge()
     count = 0
     f1=open("./bagtoimg/big/times.txt","a")
     for topic, msg, t in bag.read_messages(topics='/camera_array/cam0/image_raw'):
